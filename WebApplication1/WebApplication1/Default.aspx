@@ -10,7 +10,7 @@
                     <td class="modal-sm" style="width: 291px; height: 34px"></td>
                     <td style="height: 34px; width: 168px">Student ID</td>
                     <td style="height: 34px">
-                        <asp:TextBox ID="TextBox1" runat="server" Font-Size="Medium" style="margin-left: 0" Width="183px"></asp:TextBox>
+                        <asp:TextBox ID="TextBox1" runat="server" Font-Size="Medium" style="margin-left: 0" Width="183px" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -25,6 +25,9 @@
                     <td style="width: 168px">Address</td>
                     <td>
                         <asp:DropDownList ID="DropDownList1" runat="server" Width="187px">
+                            <asp:ListItem>USA</asp:ListItem>
+                            <asp:ListItem>Canada</asp:ListItem>
+                            <asp:ListItem>UK</asp:ListItem>
                         </asp:DropDownList>
                     </td>
                 </tr>
