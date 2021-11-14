@@ -50,6 +50,9 @@
                     <td style="width: 168px">&nbsp;</td>
                     <td>
                         <asp:Button ID="Button1" runat="server" BackColor="#6600FF" BorderColor="Black" Font-Bold="True" Font-Size="Medium" ForeColor="White" Height="30px" OnClick="Button1_Click" Text="Insert" Width="82px" />
+                        <asp:Button ID="Button2" runat="server" BackColor="#6600FF" BorderColor="Black" Font-Bold="True" Font-Size="Medium" ForeColor="White" Height="30px" OnClick="Button2_Click" Text="Update" Width="100px" style="margin-left: 46" />
+                        <asp:Button ID="Button3" runat="server" BackColor="#6600FF" BorderColor="Black" Font-Bold="True" Font-Size="Medium" ForeColor="White" Height="30px" OnClick="Button3_Click" Text="Delete" Width="100px" style="margin-left: 46" />
+                        <asp:Button ID="Button4" runat="server" BackColor="#6600FF" BorderColor="Black" Font-Bold="True" Font-Size="Medium" ForeColor="White" Height="30px" OnClick="Button4_Click" Text="Search" Width="100px" style="margin-left: 46" />
                     </td>
                 </tr>
             </table>
